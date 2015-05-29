@@ -39,11 +39,11 @@
 - (NSString *) numberOfCheesesStringWithCheeseCount:(NSUInteger)cheeseCount {
     if (cheeseCount == 1) {
         /* WORK HERE, ASSUMING THERE IS 1 CHEESE */
-        NSString *cheeseCountString = cheeseCount;
-        return [NSString stringWithFormat:@"%lu, %@", (unsigned long)cheeseCount, cheeseCountString];
-        
+//        NSString *cheeseCountString = cheeseCount;
+        return [NSString stringWithFormat:@"%lu cheese", (unsigned long)cheeseCount];
     } else {
         /* WORK HERE, ASSUMING THERE ARE 2+ CHEESES */
+        
     }
     
     /*
