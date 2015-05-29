@@ -43,7 +43,7 @@
         return [NSString stringWithFormat:@"%lu cheese", (unsigned long)cheeseCount];
     } else {
         /* WORK HERE, ASSUMING THERE ARE 2+ CHEESES */
-        
+        return [NSString stringWithFormat:@"%lu cheeses", (unsigned long)cheeseCount];
     }
     
     /*
