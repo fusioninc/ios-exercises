@@ -38,6 +38,7 @@
     [super tearDown];
 }
 
+
 - (void) testThatStringsAreTurnedIntoArraysProperly {
     NSString *testString = [NSString stringWithFormat:@"%@;%@;%@", self.worf, self.picard, self.crusher];
     NSArray *expectedArray = @[self.worf, self.picard, self.crusher];
